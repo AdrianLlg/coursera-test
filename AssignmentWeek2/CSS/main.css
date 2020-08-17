@@ -26,7 +26,7 @@ p {
   margin-right: 30px;
   padding: 4px;
   position: relative;
-  border: 2px ;
+  border: 3px solid black;
 }
 
 .itemTitle {
@@ -37,6 +37,8 @@ p {
   right: 0px;
   padding: 5px 90px;
   border-left: 2px;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
 }
 
 #titleOne {
