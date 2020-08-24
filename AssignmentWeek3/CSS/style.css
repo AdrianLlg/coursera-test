@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color:#fff;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    padding: 15px 25px 0px 25px;
+    font-family: Georgia sans-serif;
+    font-size: 16px;
+    position: relative;
+    color:#fff;
+  }
+  
+  .section { 
+    background-color: #afaeae;
+      border: 2px solid black;
+      margin-top: 20px; 
+      margin-left: 30px;
+      margin-right: 0px; 
+      padding: 3px;
+      text-align: justify;
+      position: relative;
+   }
+  
+  span {
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #nr1  {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #nr2 {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #nr3 {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .row {
+    width: 100%;
+  }
+ 
+  #header-nav {
+    background-color: #148ded;
+    border-radius: 0;
+    border: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .navbar-brand {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar-brand a { 
+    font-family: 'Lora', serif; 
+    color:#fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+  }
+
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  .navbar-brand h2 { /* Our Menu */
+    color: #000;
+    font-weight: bold;
+    font-size: .7em;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  #nav-list{
+    background: white;
+    border: 1px solid #e7e7e7;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  #nav-list hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #e7e7e7;
+  }
+  
+  #header-nav span.icon-bar{
+    background: #e7e7e7;
+  }
+  
+  #header-nav .navbar-toggle:hover span.icon-bar, #header-nav .navbar-toggle:focus span.icon-bar{
+    background: #888;
+  }
+  
+  .menu-header{
+    margin-bottom: 40px;
+  }
+  .menu-content{
+    background: #999999;
+    margin-bottom: 20px;
+  }
